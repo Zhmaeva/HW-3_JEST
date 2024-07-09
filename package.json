@@ -15,6 +15,18 @@
     "test",
     "jsaqa"
   ],
+  "coverageThreshold": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+  },
+  "collectCoverage": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
+  },
   "author": "zhmaeva",
   "license": "ISC",
   "devDependencies": {
